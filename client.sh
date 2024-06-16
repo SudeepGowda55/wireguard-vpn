@@ -11,7 +11,7 @@ sudo pacman -S wireguard-tools
 
 # Bring your WireGuard interface up with the following command:
 
-sudo wg-quick up deepfake
+sudo wg-quick up wireguard
 
 # The above assumes your .conf file was named wg0.conf. 
 # If it had been named something else, you would replace wg0 with whatever the name was of your .conf file. 
@@ -25,4 +25,4 @@ sudo wg
 
 # When you're done with your WG interface, you can take it down:
 
-sudo wg-quick down wg0
+sudo wg-quick down wireguard
